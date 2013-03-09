@@ -1,0 +1,194 @@
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin:0;
+	padding:0;
+	border:0;
+	font-size:100%;
+	font:inherit;
+	vertical-align:baseline;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+/* clear*/
+.clear {
+	clear:both;
+	display:block;
+	overflow:hidden;
+	visibility:hidden;
+	width:0;
+	height:0;
+}
+
+
+
+body {
+	font-size:16px;
+	line-height:1.5;
+	font-family:Helvetica,Arial,sans-serif;
+	color:#222;
+	margin:40px;
+	-webkit-font-smoothing:antialiased;
+	-webkit-text-size-adjust:100%;
+	background:#eaeaea;
+}
+
+/* typography */
+
+h2 {
+	font-size:22px;
+	line-height:30px;
+	color:#222222;
+	letter-spacing:-.2px;
+	margin-bottom:20px;
+}
+
+
+p {
+	margin:0 0 15px;
+	line-height:21px;
+}
+
+
+/*
+-----------------
+	F O R M
+----------------
+*/
+
+/* fieldset and legend */
+
+fieldset {
+	width:620px;
+	margin:0 0 20px;
+	background-color:#fdfdfd;
+	display:block;
+	overflow:hidden;
+}
+
+fieldset,legend {
+	border:1px solid #ccc;
+	border-radius:4px;
+}
+
+legend {
+	padding:3px 15px;
+	margin-left:20px;
+	background-color:#FFF;
+	font-size:12px;
+	color:#169fe6;
+
+}
+
+/* form paragraph */
+
+fieldset p {
+	
+	height:30px;
+	line-height:30px;
+	display:block;
+	padding:5px 0;
+	margin:0;
+	overflow:hidden;
+	position:relative;
+	background-color:#fdfdfd;
+	border-bottom:1px solid #eee;
+	border-top:1px solid #fff;
+}
+
+fieldset p:last-child {
+	border-bottom:none;
+}
+
+/* labels */
+
+label {
+	width:200px;
+	float:left;
+	display:block;
+	text-align:right;
+	margin:0 15px 0 0;
+	font-size:12px;
+	color:#555;
+	font-weight:700;
+}
+
+label em {
+	font-size:10px;
+	color:#ed1c1c;
+	text-align:left;
+	margin-left:0;
+}
+
+form span {
+	margin:0 10px 0 5px;
+	float:left;
+}
+
+/* form fields */
+
+input[type=text] {
+	width:250px;
+	padding:3px 3px 2px;
+}
+
+input[type=text],select {
+	padding:3px;
+	border:1px solid;
+	border-color:#abadb3 #dbdfe6 #e3e9ef #e2e3ea;
+	border-radius:3px;
+	color:#666;
+	font-size:12px;
+}
+
+input[type=text]:hover,
+select:hover,
+input[type=text]:focus,
+select:focus {
+	border:1px solid;
+	border-color:#5794bf #b7d5ea #c7e2f1 #c5daed;
+	outline:none;
+}
+
+form select {
+	padding:3px 3px 2px;
+}
+
+form select option {
+	background-color:#fff;
+}
+
+
+
+/* submit button */
+
+input[type="submit"] {
+	padding:5px 14px 7px;
+	display:inline-block;
+	border:0;
+	font-weight:500;
+	outline:none;
+	font-size:13px;
+	cursor:pointer;
+	width:auto;
+	-webkit-transition:all 200ms ease-in-out;
+	-moz-transition:all 200ms ease-in-out;
+	-o-transition:all 200ms ease-in-out;
+	-ms-transition:all 200ms ease-in-out;
+	transition:all 200ms ease-in-out;
+	border-radius:2px;
+	box-shadow:inset 0 -1px 0 0 rgba(0,0,0,0.2);
+	letter-spacing:-.2px;
+}
+
+input[type="submit"],input[type="submit"]:focus {
+	color:#fff;
+	background:#169fe6;
+	padding:9px 11px;
+	border:none!important;
+}
+
+input[type="submit"]:hover {
+	background:#aaa;
+}
